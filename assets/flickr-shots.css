@@ -1,0 +1,23 @@
+/*	
+* Flickr Shots By Navthemes CSS
+*/
+
+.flickr-photos{
+	display:block;
+}
+
+.flickr-photos li{
+	display:inline-block !important;
+	width:auto!important;
+}
+
+.flickr-photos li img{
+	max-width:100%;
+	width:70px;
+	height:70px;
+	margin:5px;
+}
+.flickr-photos li img:hover{
+	opacity:0.8;
+	filter: alpha(opacity=80);
+}
